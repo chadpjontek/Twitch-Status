@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+.card-header {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.card {
+    box-shadow: 3px 3px 110px #7442e2;
+}
+h1 {
+    text-shadow: 3px 5px 13px #7442e2; 
+}
