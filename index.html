@@ -15,10 +15,26 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Twitch
+            <i class="fa fa-twitch" aria-hidden="true"></i> Status</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <form class="form-inline">
+                <input id="inputField" class="form-control mr-sm-2" type="text" placeholder="channel name" aria-label="Search">
+                <button id="searchChannelButton" class="btn btn-outline-info my-2 my-sm-0" type="button">Search streamers</button>
+                <button id="addChannelButton" class="btn btn-outline-success my-2 my-sm-0" type="button">Add channel</button>
+                <button id="deleteChannelButton" class="btn btn-outline-danger my-2 my-sm-0" type="button">Delete channel</button> 
+            </form>
+        </div>
+    </nav>
     <div class="container">
         <div class="row m-5">
             <div class="col text-center">
-                <h1 class="display-4 text-light">Twitch 
+                <h1 class="display-4 text-light mt-5">Twitch
                     <i class="fa fa-twitch" aria-hidden="true"></i> Status</h1>
             </div>
         </div>
